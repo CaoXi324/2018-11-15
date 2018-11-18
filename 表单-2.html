@@ -1,0 +1,124 @@
+<!DOCTYPE>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <title>massage-board</title>
+        <style>
+            table {
+                text-align: left
+                }
+        </style>
+    </head>
+    <body>
+        <form>
+            <fieldset>
+                <fieidset>                             
+                    <p>卡种简称<input type="text">卡种代码<input type="text"/></p>
+                    <p><label for ="是否已有思沃银行信用卡：">是否已有思沃银行信用卡：</label>
+                        <input type="radio" name="是否已有思沃银行信用卡：" value="是"/>
+                        <label for="是">是</label>
+                        <input type="radio" name="是否已有思沃银行信用卡：" value="否"/>
+                        <label for="否">否</label>
+                    </p>
+                </fieldset>
+                <fieldset>
+                    <p>中文姓名<input type="text">国籍<input type="text"></p>
+                    <p>拼音/英文姓名<input type="text"></p>
+                    <p><label for ="婚姻状况：">婚姻状况：</label>
+                        <input type="radio" name="婚姻状况：" value="已婚"/>
+                        <label for="已婚">已婚</label>
+                        <input type="radio" name="婚姻状况：" value="未婚"/>
+                        <label for="未婚">未婚</label></p>
+                    <p><label for ="教育程度">教育程度：</label>
+                        <input type="radio" name="教育程度：" value="本科及以上"/>
+                        <label for="本科及以上">本科及以上</label>
+                        <input type="radio" name="教育程度：" value="高中"/>                            
+                        <label for="高中">高中</label>
+                        <input type="radio" name="教育程度：" value="高中以下"/>
+                        <label for="高中以下">高中以下</label></p>
+                </fieldset>
+                <fieldset>
+                    <p>出生日期<input type="date"><label for ="性别：">性别：</label>
+                        <input type="radio" name="性别" value="男"/>                            
+                        <label for="男">男</label>
+                        <input type="radio" name="性别" value="女"/>
+                        <label for="女">女</label>
+                    </p>
+                    <p><label for ="证件类型：">证件类型：</label>
+                        <input type="radio" name="证件类型：" value="身份证"/>
+                        <label for="身份证">身份证</label>                            
+                        <input type="radio" name="证件类型：" value="外国护照"/>
+                        <label for="国外护照">外国护照</label>
+                        <input type="radio" name="证件类型：" value="其他"/>
+                        <label for="其他">其他</label><input type="text">
+                    </p>
+                    <p>证件号码<input type="text"></p>
+                    <p><label for="住宅状况：">住宅状况：</label>                            
+                        <input type="radio" name="住宅状况：" value="自购房无贷款"/>
+                        <label for="自购房无贷款">自购房无贷款</label>
+                        <input type="radio" name="住宅状况：" value="自购房有贷款"/>
+                        <label for="自购房有贷款">自购房有贷款</label>
+                        <input type="radio" name="住宅状况：" value="租房"/>
+                        <label for="租房">租房</label>
+                    </p>                        
+                    <p>单位全称及部门<input type="text"/>工作年限<input type="number"/>年</p>
+                    <p><label for="行业种类：">行业种类：</label>
+                        <input type="radio" name="行业种类：" value="公共管理与社会组织"/>
+                        <label for="公共管理与社会组织">公共管理与社会组织</label>
+                        <input type="radio" name="行业种类：" value="邮政交通运输"/>
+                        <label for="邮政交通运输">邮政交通运输</label>                            
+                        <input type="radio" name="行业种类：" value="金融电力电信"/>
+                        <label for="金融电力电信">金融电力电信</label>
+                        <input type="radio" name="行业种类：" value="计算机服务与软件业"/>
+                        <label for="计算机服务与软件业">计算机服务与软件业</label>
+                        <input type="radio" name="行业种类：" value="贸易服务业"/>
+                        <label for="贸易服务业">贸易服务业</label>
+                    </p>                    
+                </fieldset>
+                <fieldset>
+                    <table>
+                    <tr>
+                        <td>现住址</td>                            
+                        <td><input type="text"/>省</td>
+                        <td><input type="text"/>市</td>
+                        <td><input type="text"/>区</td> 
+                        <td><input type="text"/></td>
+                    </tr>
+                    <tr>
+                        <td>单位地址</td>                            
+                        <td><input type="text"/>省</td>
+                        <td><input type="text"/>市</td>
+                        <td><input type="text"/>区</td>
+                        <td><input type="text"/></td>
+                    </tr>
+                    <tr>
+                        <td>联系人姓名</td>                            
+                        <td><input type="text"/></td>
+                        <td><label for ="性别：">性别：</label>
+                            <input type="radio" name="性别" value="男"/>
+                            <label for="男">男</label>
+                            <input type="radio" name="性别" value="女"/>
+                            <label for="女">女</label></td>
+                        <td><label for="与申请人关系：">与申请人关系：</label></td>                            
+                        <td><input type="radio" name="与申请人关系" value="亲属"/>
+                            <label for="亲属">亲属</label>
+                            <input type="radio" name="与申请人关系" value="朋友"/>
+                            <label for="朋友">朋友</label></td>
+                    </tr>
+                    <tr>
+                        <td>联系人电话</td>                            
+                        <td><input type="text"/></td>
+                    </tr>
+                    </table>
+                </fieldset>
+                <fieldset>
+                    <ul>
+                        <li>本人已阅读理解了思沃银行信用卡章程</li>                            
+                        <li>本人同意并授权贵行按照国家相关规定采集并向金融信用信息基础数据库提供个人信息</li>
+                        <li>本人保证上述填写资料真实有效</li>
+                    </ul>
+                    <p>申请人签名<input type="text"/>日期<input type="date"/></p>
+                </fieldset>
+            </fieldset>
+        </form>
+    </body>

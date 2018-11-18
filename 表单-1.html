@@ -1,0 +1,61 @@
+<!DOCTYPE>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>massage-board</title>
+    </head>
+    <body>
+    <form action="/echo" method="POST">
+        <fieldset>
+        <style>
+        label{
+            cursor: pointer;
+            display: inline-block;
+            padding: 3px 6px;
+            text-align: left;
+            width: 120px;
+            }
+        </style>
+        <p><label for ="账号：">账号:</label>
+            <input type="text" name="username" placeholder="请输入想注册的账号"></p>
+        <p><label for ="密码：">密码:</label>
+           <input type="password" name="password" placeholder="请设置您的账号登陆密码"></p>
+        <p><label for ="重复密码：">重复密码:</label>
+            <input type="password" name="password" placeholder="再次输入密码"></p>
+        <p><label for ="验证码：">验证码：</label>
+            <input type="password" name="password" placeholder="请输入六位验证码"></p>
+        <p><label for ="性别：">性别：</label>
+            <input type="radio" name="性别" value="男">
+            <label for="男">男</label>
+            <input type="radio" name="性别" value="女">
+            <label for="女">女</label>
+        </p>
+        <p><label for ="玩过什么游戏：">玩过什么游戏：</label>
+            <input type="checkbox" name="玩过什么游戏" value="英雄联盟">
+            <label for="英雄联盟">英雄联盟</label>
+            <input type="checkbox" name="玩过什么游戏" value="穿越火线">
+            <label for="穿越火线">穿越火线</label>
+            <input type="checkbox" name="玩过什么游戏" value="魔兽世界">
+            <label for="魔兽世界">魔兽世界</label>
+            <input type="checkbox" name="玩过什么游戏" value="守望先锋">
+            <label for="守望先锋">守望先锋</label>
+        </p>
+        <p><select>
+            <option>年</option>
+            <option>2018</option>
+            <option>2017</option>
+            <option>2016</option>
+            <option>2015</option>
+            <option>2014</option>
+            <option>2013</option>
+        </select>
+
+        </p>
+        <p><button type="button">按钮</button>
+           <button type="submit">提交</button>
+           <button type="reset">重置</button>
+        </p>
+    </fieldset>
+    </form>
+    </body>
+</html>
